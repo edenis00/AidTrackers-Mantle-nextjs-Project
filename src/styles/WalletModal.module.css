@@ -1,0 +1,140 @@
+/* styles/WalletModal.module.css */
+
+
+.modalOverlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /* background-color: rgba(0, 0, 0, 0.5); */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+}
+
+.modalContent {
+    background-color: #fff;
+    border-radius: 10px;
+    max-width: 500px; /* Main modal width */
+    width: 90%;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    position: relative;
+}
+
+.closeButton {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    color: #333;
+}
+
+.largeDialog {
+    width: 600px; /* Set desired width for large dialog */
+    max-width: 90%;
+    padding: 30px;
+    /* display: grid; */
+    display: flex;
+    /* flex-direction: column; */
+    /* flex-direction: row; */
+    align-items: center;
+    text-align: center;
+    /* background-color: #f9f9f9; Optional: different background */
+    border-radius: 10px; /* Optional: rounded corners */
+    margin: 0 auto;
+}
+
+.largeDialog h2 {
+    /* margin-top: 20px; */
+    font-size: 24px;
+}
+
+.largeDialog p {
+    font-size: 16px;
+    color: #555;
+    margin-top: 10px;
+}
+
+.imagecontainer{
+    /* border: 1px solid; */
+    /* position: relative; */
+    margin-right: 20px;
+}
+
+
+.modalTitle {
+    margin-bottom: 20px;
+    font-size: 1.5em;
+}
+
+.walletList {
+    list-style: none;
+    padding: 0;
+}
+
+.walletOption {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+    cursor: pointer;
+    padding: 8px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.walletOption:hover {
+    background-color: #f0f0f0;
+}
+
+.walletOption img {
+    margin-right: 10px;
+}
+
+
+@media screen and (orientation:portrait) {
+    .largeDialog {
+        width: 500px; /* Set desired width for large dialog */
+        max-width: 50%;
+        padding: 30px;
+        /* display: grid; */
+        display: flex;
+        flex-direction: column;
+        /* flex-direction: row; */
+        align-items: center;
+        text-align: center;
+        /* background-color: #f9f9f9; Optional: different background */
+        border-radius: 10px; /* Optional: rounded corners */
+        margin: 0 auto;
+    }
+    .qrcode{
+        display: none;
+    }
+
+    .modalOverlay {
+        position: fixed;
+        top: 0;
+        left: 20px;
+        /* right: 0; */
+        width: 90%;
+        height: 100%;
+        /* background-color: rgba(0, 0, 0, 0.5); */
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        z-index: 1000;
+    }
+
+    .imagecontainer{
+        width: 200px;
+        /* border: 1px solid; */
+    }
+    
+}

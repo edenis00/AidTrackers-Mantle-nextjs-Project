@@ -1,0 +1,60 @@
+/* components/Partners.module.css */
+.partnersSection {
+    text-align: center;
+    padding: 4rem 1rem;
+    background-color: #f5f9ff;
+  }
+  
+  .title {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+    color: #333;
+  }
+  
+  .highlight {
+    font-weight: bold;
+    color: #000;
+  }
+  
+  .logoContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .logo {
+    height: 20px;
+    transition: transform 0.3s ease;
+  }
+  
+  .logo:hover {
+    transform: scale(1.1);
+  }
+  
+  @media (min-width: 768px) {
+    .title {
+      font-size: 2rem;
+    }
+  
+    .logo {
+      height: 100px;
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .title {
+      font-size: 2.5rem;
+    }
+  
+    .logo {
+      height: 100px;
+    }
+  }
+  
+  @media all and (orientation:portrait) {
+    .logo {
+      height: 100px;
+    }
+  }

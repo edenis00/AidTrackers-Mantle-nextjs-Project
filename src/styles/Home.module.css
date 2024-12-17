@@ -1,0 +1,138 @@
+.container {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  background-color: #f9f9f9;
+  padding: 20px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  position: absolute;
+  /* left: 80px; */
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.navLinks a {
+
+  margin: 0 20px;
+  color: #333;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.navLinks a:hover {
+  color: #0070f3;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  font-weight: 500;
+
+}
+
+.contactButton {
+  background-color: #0070f3;
+  color: #fff;
+  border: none;
+  font-weight: 600;
+  padding: 10px 20px;
+  /* border-radius: 4px; */
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.mainContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 20px;
+}
+
+.heroSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.imageContainer {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.heroImage {
+  width: 150px;
+  height: auto;
+  position: relative;
+  top: 25px;
+  object-fit: cover;
+  /* border-radius: 8px; */
+}
+
+.heroImage2 {
+  width: 500%;
+  height: 50%;
+  object-fit: cover;
+  /* border-radius: 8px; */
+}
+
+.textContent h2 {
+  font-size: 28px;
+  font-weight: bold;
+  margin: 20px 0;
+}
+
+.highlight {
+  color: #0070f3;
+}
+
+.textContent p {
+  color: #666;
+  position: relative;
+  left: 100px;
+  font-size: 18px;
+  max-width: 600px;
+}
+
+.buttonGroup {
+  display: flex;
+  gap: 15px;
+  margin-top: 20px;
+  position: relative;
+  left: 300px;
+  /* margin: auto; */
+  /* border: 1px solid; */
+}
+
+.getStartedButton,
+.learnMoreButton {
+  padding: 10px 20px;
+  border: none;
+  /* border-radius: 4px; */
+  cursor: pointer;
+}
+
+
+.getStartedButton {
+  background-color: #0070f3;
+  color: white;
+}
+
+.learnMoreButton {
+  background-color: transparent;
+  color: #333;
+}

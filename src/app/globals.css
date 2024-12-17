@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+
+  .gradient-bg {
+    background-image: linear-gradient(to right top, #0d173d, #092449, #073153, #0b3d5c, #154a64);
+  }
+
+  .btn {
+    @apply outline-none shadow-md transition-all duration-500 rounded text-sm
+  }
+
+  .spray {
+    @apply hover:bg-spray-800 bg-spray-700 text-white
+  }
+
+  .spray-dark {
+    @apply hover:bg-spray-800 bg-spray-900 text-white
+  }
+
+  .chestnut {
+    @apply hover:bg-chestnut-800 bg-chestnut-700 text-white
+  }
+}

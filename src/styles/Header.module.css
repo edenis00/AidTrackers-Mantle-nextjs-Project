@@ -1,0 +1,199 @@
+/* styles/Header.module.css */
+
+.header {
+  top: 0;
+  left: 0;
+  z-index: 1;
+  display: flex;
+  width: 100%;
+  position: fixed;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background: #f8f9fa;
+}
+
+.logocontainer {
+  display: flex;
+}
+
+.companylogo {
+  position: relative;
+  max-height: 25px;
+  top: 5px;
+  left: 15px;
+}
+
+.logo {
+  font-size: 24px;
+  position: inherit;
+  left: 0;
+  color: #000;
+  font-weight: bold;
+}
+
+.nav {
+  display: flex;
+  gap: 15px;
+  text-align: center;
+}
+
+.nav a {
+  text-decoration: none;
+  color: #333;
+  justify-content: center;
+  transition: .5s ease;
+}
+
+.nav a:hover {
+  justify-content: center;
+  color: #0056b3;
+  /* background: #007bff; */
+  /* border-bottom: 5px solid #0056b3; */
+  /* color: #fff; */
+  /* padding: 10px; */
+}
+
+.contactButton {
+  background: #007bff;
+  color: white;
+  border: none;
+  right: 50px;
+  position: relative;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+
+
+.highlight {
+  color: #007bff;
+  position: relative;
+  left: 20px;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.contactButton:hover {
+  background: #0056b3;
+}
+
+/* Basic styling for navbar */
+
+
+.navLinks {
+  list-style-type: none;
+  display: flex;
+  position: relative;
+  bottom: 10px;
+  gap: 1.5rem;
+}
+
+.navLinks li a {
+  color: #fff;
+  top: 20px;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+/* Hide nav links on smaller screens */
+.navLinks {
+  display: none;
+}
+
+/* Show nav links if menu is open */
+.showMenu {
+  /* border: 1px solid blue; */
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: -16px;
+  bottom: 10px;
+  z-index: -1;
+  height: 100vh;
+  opacity: 90%;
+  right: 40px;
+  width: 40%;
+  background-color: #333;
+  padding: 1em;
+  /* border-radius: 8px; */
+}
+
+.showMenu li,
+.WalletButton {
+  margin-top: 10px;
+  position: relative;
+  top: 30px;
+  text-align: center;
+}
+
+/* Hamburger icon */
+.menuIcon {
+  /* border: 1px solid; */
+  position: relative;
+  right: 50px;
+  bottom: 10px;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 25px;
+  /* background-color: #000; */
+  height: 20px;
+}
+
+.menuIcon div {
+  height: 3px;
+  background-color: #000;
+  transition: all 0.3s ease;
+}
+
+/* Open menu icon animation */
+.open div:nth-child(1) {
+  transform: rotate(45deg) translate(5px, 5px);
+  background: #fff;
+}
+
+.open div:nth-child(2) {
+  opacity: 0;
+}
+
+.open div:nth-child(3) {
+  background: #fff;
+  transform: rotate(-50deg) translate(5px, -5px);
+}
+
+/* Responsive styling */
+@media (min-width: 768px) {
+  .menuIcon {
+    display: none;
+    /* Hide hamburger icon on larger screens */
+  }
+
+  .navLinks {
+    display: none;
+    /* Show nav links on larger screens */
+    /* position: static;
+    flex-direction: row; */
+  }
+}
+
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .nav {
+    flex-direction: column;
+    align-items: center;
+    display: none;
+  }
+
+  .header {
+    position: fixed;
+    /* left: 0; */
+  }
+
+  .btn {
+    display: none;
+  }
+}

@@ -1,0 +1,121 @@
+/* components/Footer.module.css */
+
+.footer {
+  position: relative;
+  bottom: 0;
+  right: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  padding: 2rem;
+  background-color: #f0f8ff;
+  color: #333;
+}
+
+.footerSection {
+  flex: 1;
+  min-width: 200px;
+}
+
+.footerSection h3 {
+  font-weight: bold;
+}
+
+
+.logocontainer {
+  display: flex;
+  align-items: center;
+}
+
+.companylogo {
+  position: relative;
+  max-height: 25px;
+  /* top: 5px; */
+  /* left: 15px; */
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #1a73e8;
+}
+
+.logo span {
+  font-weight: bold;
+}
+
+.txt {
+  color: #000;
+}
+
+.badges {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.icon {
+  width: 150px;
+  height: auto;
+}
+
+.linksList {
+  list-style: none;
+}
+
+.linksList li {
+  padding-top: 2px;
+}
+
+.linksList li a {
+  margin: 0.5rem 0;
+  color: #333;
+  font-size: 14px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.linksList li a:hover {
+  color: #0056b3;
+}
+
+.socialIcons {
+  display: flex;
+  gap: 0.5rem;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.socialIcons img {
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  transition: opacity 0.3s ease;
+}
+
+.socialIcons img:hover {
+  opacity: 0.7;
+}
+
+@media (max-width: 768px) {
+  .footer {
+    text-align: center;
+  }
+
+}
+
+@media (max-width: 480px) {
+
+  .badges,
+  .socialIcons {
+    justify-content: center;
+  }
+}
+
+.copyright {
+  width: 100%;
+  text-align: center;
+  margin-top: 2rem;
+  font-size: 0.9rem;
+  color: #888;
+}
