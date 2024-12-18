@@ -4,11 +4,12 @@ import styles from '@/styles/works.module.css';
 
 export default function Works() {
   const steps = [
-    { title: 'Aid Distribution', description: 'A website is an extension of yourself and we can help you to express it properly. Your website is your number one marketing asset because we live in a digital age.' },
-    { title: 'Aid Tracking', description: 'A website is an extension of yourself and we can help you to express it properly. Your website is your number one marketing asset because we live in a digital age.' },
-    { title: 'Aid Distribution', description: 'A website is an extension of yourself and we can help you to express it properly. Your website is your number one marketing asset because we live in a digital age.' },
-    { title: 'Aid Distribution', description: 'A website is an extension of yourself and we can help you to express it properly. Your website is your number one marketing asset because we live in a digital age.' },
-    // { title: 'Aid Distribution', description: 'A website is an extension of yourself and we can help you to express it properly. Your website is your number one marketing asset because we live in a digital age.' }
+    { title: 'Aid Distribution', description: 'We are organizing an aid distribution event to support those in need. Essential items such as food, clothing, and medical supplies will be provided.' },
+    { title: 'Aid Tracking', description: 'We are committed to ensuring transparency and efficiency in our aid distribution. Our Aid Tracking System monitors the allocation and delivery of resources, ensuring they reach those in need.' },
+    { title: 'Aid Distribution', description: 'We are organizing an aid distribution event to support those in need. Essential items such as food, clothing, and medical supplies will be provided.' },
+    { title: 'Aid Tracking', description: 'We are committed to ensuring transparency and efficiency in our aid distribution. Our Aid Tracking System monitors the allocation and delivery of resources, ensuring they reach those in need.' },
+    
+    
   ];
 
   return (
