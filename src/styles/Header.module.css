@@ -108,12 +108,12 @@
   display: flex;
   flex-direction: column;
   position: absolute;
-  top: -16px;
+  top: 0;
   bottom: 10px;
   z-index: -1;
   height: 100vh;
   opacity: 90%;
-  right: 40px;
+  right: -2px;
   width: 40%;
   background-color: #333;
   padding: 1em;
@@ -128,11 +128,20 @@
   text-align: center;
 }
 
+.btnContainer{
+  padding: 10px;
+  /* border: 1px solid #fff; */
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: 10px;
+}
+
 /* Hamburger icon */
 .menuIcon {
   /* border: 1px solid; */
   position: relative;
-  right: 50px;
+  /* right: 50px; */
   bottom: 10px;
   cursor: pointer;
   display: flex;

@@ -44,7 +44,9 @@ const Header = () => {
                 <li><a href="#features">Features</a></li>
                 <li><a href="#beneficiary">Beneficiaries</a></li>
                 <li><a href="#donors">Donors</a></li>
+                <div className={styles.btnContainer}>
                 <Connect />
+                </div>
             </ul>
 
 
