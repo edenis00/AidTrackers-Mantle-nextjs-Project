@@ -37,14 +37,16 @@
 }
 
 .navLinks a:hover {
-  color: #0070f3;
+  color: #145A76;
+  /* color: #0070f3; */
   transition: transform 0.2s ease, box-shadow 0.2s ease;
   font-weight: 500;
 
 }
 
 .contactButton {
-  background-color: #0070f3;
+  background-color: #145A76;
+  /* background-color: #0070f3; */
   color: #fff;
   border: none;
   font-weight: 600;
@@ -97,7 +99,8 @@
 }
 
 .highlight {
-  color: #0070f3;
+  color: #145A76;
+  /* color: #0070f3; */
 }
 
 .textContent p {
@@ -128,7 +131,8 @@
 
 
 .getStartedButton {
-  background-color: #0070f3;
+  background-color: #145A76;
+  /* background-color: #0070f3; */
   color: white;
 }
 

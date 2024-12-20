@@ -47,7 +47,7 @@
 
 .nav a:hover {
   justify-content: center;
-  color: #0056b3;
+  color: #145A76
   /* background: #007bff; */
   /* border-bottom: 5px solid #0056b3; */
   /* color: #fff; */
@@ -55,7 +55,8 @@
 }
 
 .contactButton {
-  background: #007bff;
+  /* background: #007bff; */
+  background: #145A76;
   color: white;
   border: none;
   right: 50px;
@@ -76,7 +77,8 @@
 }
 
 .contactButton:hover {
-  background: #0056b3;
+  background: #145A76;
+  /* background: #0056b3; */
 }
 
 /* Basic styling for navbar */
