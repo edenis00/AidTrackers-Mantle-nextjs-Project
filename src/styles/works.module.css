@@ -42,7 +42,7 @@
   height: 50px;
   border-radius: 50%;
   background-repeat: no-repeat;
-  background-image: url('/img/images/Group1.png');
+  /* background-image: url('/img/images/Group1.png'); */
   background-position: cover;
   background-size: cover;
 
@@ -62,7 +62,11 @@
   line-height: 1.5;
 }
 
-.image2 {
+.number{
+font-size: 20px;
+font-weight: bold;
+}
+/* .image2 {
   width: 2%;
   object-fit: cover;
-}
+} */

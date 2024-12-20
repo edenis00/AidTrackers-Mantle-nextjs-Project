@@ -10,16 +10,17 @@ const Feature = () => {
         <div className={styles.textContainer}>
           <h3>Transparent Tracking</h3>
           <p>
-            Finding the right talent is not easy. We help you find the talent that
-            suits your needs, follows your processes, and sticks with you long term
-            (not the case with freelancers).
+          Finding the right talent can be challenging. 
+          We help you discover professionals who align with your needs,
+           integrate seamlessly into your processes, 
+           and stay committed for the long term—unlike traditional freelancers.
           </p>
           <p>
-            Our <a href="#" className={styles.link}>delivery model</a> helps you cut costs and deliver within budget.
+            Our <a href="#" className={styles.link}>delivery model</a> ensures cost efficiency and helps you stay within budget.
           </p>
           <blockquote className={styles.quote}>
-            &quot;Simform is quick to identify larger problems with the software, so we
-            decided to expand our scope to build new modules.&quot;
+            &quot;Recognizing deeper challenges within the software, 
+            Simform inspired us to expand our vision and create additional modules to enhance functionality.&quot;
           </blockquote>
         </div>
         <div className={styles.imageContainer}>

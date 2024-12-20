@@ -76,7 +76,8 @@
 }
 
 .linksList li a:hover {
-  color: #0056b3;
+  /* color: #0056b3; */
+  color: #145A76;
 }
 
 .socialIcons {

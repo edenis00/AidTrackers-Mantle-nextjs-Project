@@ -35,15 +35,16 @@
   }
   
   .link {
-    color: #3b82f6;
+    color: #145A76;
     text-decoration: underline;
   }
   
   .quote {
     font-style: italic;
     font-size: 0.9rem;
-    color: #3b82f6;
-    border-left: 3px solid #3b82f6;
+    /* color: #3b82f6; */
+    color: #145A76;
+    border-left: 3px solid #145A76;
     padding-left: 1rem;
     margin-top: 1rem;
   }

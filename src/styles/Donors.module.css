@@ -11,7 +11,8 @@
   top: 20px;
   left: 50%;
   transform: translateX(-50%);
-  background-color: #0070f3;
+  background-color: #145A76;
+  /* background-color: #0070f3; */
   color: #fff;
   padding: 10px 16px;
   border-radius: 4px;
@@ -33,7 +34,8 @@
   display: block;
   width: 40px;
   height: 3px;
-  background-color: #0070f3;
+  background-color: #145A76;
+  /* background-color: #0070f3; */
   margin: 8px auto;
 }
 
@@ -73,7 +75,8 @@
 
 .registerButton {
   padding: 10px 20px;
-  background-color: #0070f3;
+  background-color: #145A76;
+  /* background-color: #0070f3; */
   color: white;
   border: none;
   cursor: pointer;
@@ -83,7 +86,8 @@
 }
 
 .registerButton:hover {
-  background-color: #005bb5;
+  background-color: #145A76;
+  /* background-color: #005bb5; */
 }
 
 /* Responsive Styles */

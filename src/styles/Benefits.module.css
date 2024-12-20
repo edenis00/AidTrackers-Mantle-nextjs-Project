@@ -35,7 +35,8 @@
 }
 
 .highlight {
-  color: #0070f3;
+  color: #145A76;
+  /* color: #0070f3; */
 }
 
 .description {
@@ -47,7 +48,8 @@
 
 .link {
   font-size: 1rem;
-  color: #0070f3;
+  color: #145A76;
+  /* color: #0070f3; */
   font-weight: 500;
   text-decoration: none;
   display: inline-flex;

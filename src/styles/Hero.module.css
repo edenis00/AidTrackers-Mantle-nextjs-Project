@@ -52,7 +52,8 @@
 }
 
 .highlight {
-  color: #007bff;
+  color: #145A76;
+  /* color: #007bff; */
 }
 
 #text {
@@ -79,7 +80,8 @@
 } */
 
 .getStarted a {
-  background: #007bff;
+  background: #145A76;
+  /* background: #007bff; */
   color: white;
   text-decoration: none;
   border: none;
@@ -90,12 +92,14 @@
 }
 
 .getStarted a:hover {
-  background: #007bffd8;
+  background: #145A76;
+  /* background: #007bffd8; */
 
 }
 
 .learnMore {
-  color: #007bff;
+  color: #145A76;
+  /* color: #007bff; */
   text-decoration: none;
   align-self: center;
 }
