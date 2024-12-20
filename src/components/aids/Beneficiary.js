@@ -14,7 +14,9 @@ const Beneficiary = () => {
             </div>
             <div className={styles.content}>
                 <h2 className={styles.head}>Register as a Beneficiary</h2>
-                <p className={styles.text}>Ensuring that aid reaches those who need it the most with blockchain-based humanitarian aid.</p>
+                <p className={styles.text}>Using blockchain technology to ensure that
+                     humanitarian aid reaches the most vulanrable population efficiantly,
+                     transparently, and securely.</p>
                 <Connect />
             </div>
         </div>

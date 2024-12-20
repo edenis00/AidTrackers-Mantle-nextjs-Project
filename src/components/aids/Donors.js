@@ -19,7 +19,7 @@ export default function Donors() {
             <div className={styles.content}>
                 <h3 className={styles.heading}>Register as a Donor</h3>
                 <p className={styles.description}>
-                    Ensuring that aid reaches those who need it the most with blockchain-based humanitarian aid.
+                    Transform lives with trust and transparency powered by blockchain to reach those who needs it the most
                 </p>
                 <Connect />
             </div>

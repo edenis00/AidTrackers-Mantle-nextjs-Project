@@ -14,13 +14,13 @@ const Hero = () => {
       </div>
       <div className={styles.textContent}>
         <h1 id='header'>
-          Ensuring <span className={styles.highlight}>Transparency</span> and{" "}
-          <span className={styles.highlight}>Efficient</span> Aid Distribution in Nigeria
+         <span className={styles.highlight}>Revolutionizing </span> Aid {' '}
+          <span className={styles.highlight}>Distribution</span> for Greater Impact
         </h1>
-        <p id='text'>Ensuring that aid reaches those who need it the most with blockchain based humanitarian aid</p>
+        <p id='text'>Harnessing the power of blockchain technology to ensure transparent, efficient, and accountable delivery of humanitarian assistance to those who need it most.</p>
         <div className={styles.buttons}>
           <button className={styles.getStarted}> <a href='#beneficiary'>Get Started</a> </button>
-          <a href="#how-it-works" className={styles.learnMore}>Learn More →</a>
+          {/* <a href="#how-it-works" className={styles.learnMorex}>Learn More →</a> */}
         </div>
       </div>
     </section>

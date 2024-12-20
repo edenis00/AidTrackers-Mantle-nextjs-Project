@@ -25,7 +25,7 @@ const Footer = () => {
           AidTrackers is a revolutionary blockchain-based platform designed to
           transform the way humanitarian aid is distributed worldwide. 
         </p>
-        <div className={styles.badges}>
+        {/* <div className={styles.badges}>
           <Image
             src="/img/images/google-page-speed1.png"
             alt="Google Play"
@@ -33,7 +33,7 @@ const Footer = () => {
             width={200}
             height={200}
           />
-        </div>
+        </div> */}
       </div>
       <div className={styles.footerSection}>
         <h3>Links</h3>
@@ -58,8 +58,7 @@ const Footer = () => {
       <div className={styles.footerSection}>
         <h3>Contact us</h3>
         <p>
-          We’d love to hear from you! Whether you have questions about our aid
-          tracking system, want to partner with us, or need assistance with our
+          Want to partner with us, or need assistance with our
           services, we’re here to help.
         </p>
         <br />
