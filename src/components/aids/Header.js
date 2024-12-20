@@ -24,7 +24,7 @@ const Header = () => {
             </div>
             <nav className={styles.nav}>
                 <a href="#home">Home</a>
-                <a href="#how-it-works">How It Works</a>
+                <a href="#how-it-works">Our Services</a>
                 <a href="#features">Features</a>
                 <a href="#beneficiary">Beneficiaries</a>
                 <a href="#donors">Donors</a>
@@ -40,7 +40,7 @@ const Header = () => {
             </div>
             <ul className={`${styles.navLinks} ${isOpen ? styles.showMenu : ''}`}>
                 <li><a href="#home">Home</a></li>
-                <li><a href="#how-it-works">How it Works</a></li>
+                <li><a href="#how-it-works">Our Services</a></li>
                 <li><a href="#features">Features</a></li>
                 <li><a href="#beneficiary">Beneficiaries</a></li>
                 <li><a href="#donors">Donors</a></li>
